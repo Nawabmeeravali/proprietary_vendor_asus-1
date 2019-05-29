@@ -1768,7 +1768,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.hardware.wipower@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wipower@1.0_vendor.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/asus/X00T/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/asus/X00T/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/asus/X00T/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+	vendor/asus/X00T/proprietary/lib64/libarcsoft_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr.so \
+    vendor/asus/X00T/proprietary/lib64/libarcsoft_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_night_shot.so \
+    vendor/asus/X00T/proprietary/lib64/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_panorama_burstcapture.so \
+    vendor/asus/X00T/proprietary/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_single_chart_calibration.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_gallery_eglfence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_gallery_eglfence.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_gallery_filters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_gallery_filters.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_gallery_jpegstream.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_gallery_jpegstream.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_hq_dualcam_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_hq_dualcam_calibration.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_hq_hdr_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_hq_hdr_shot.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_hq_night_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_hq_night_shot.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_hq_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_hq_panorama.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_pacprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_pacprocessor.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_snapcammosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_snapcammosaic.so \
+    vendor/asus/X00T/proprietary/lib64/libjni_snapcamtinyplanet.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_snapcamtinyplanet.so \
+    vendor/asus/X00T/proprietary/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
+    vendor/asus/X00T/proprietary/lib64/libscene-native-lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscene-native-lib.so \
+    vendor/asus/X00T/proprietary/lib64/libtensorflow_inference.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflow_inference.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -1806,4 +1823,3 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.factory-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
-
